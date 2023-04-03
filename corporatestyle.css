@@ -1,0 +1,205 @@
+BODY	{ SCROLLBAR-BASE-COLOR: #15416C; }
+
+
+a:link		{ color: #003399; text-decoration: none }
+
+a:visited	{ color: #003399; text-decoration: none }
+
+a:active	{ color: #003399; text-decoration: none }
+
+a:hover		{ color: #FF6600; text-decoration: none }
+
+
+
+/*091110*/
+body { background:#FFF url(background.gif) repeat-y; margin:0px; padding:0px;}
+
+span.b{ font-weight:bold;}
+
+h1{ font-size:10px; margin:0px; padding:0px; font-weight:normal;}
+
+
+ /* THIS LINE CONTROLS THE FONT SIZE ON ALL PAGES */
+TABLE		{ COLOR: #888888; FONT: 13px geneva, verdana, arial, sans-serif }
+
+.title		{ COLOR: #225A71; FONT: 15px geneva, verdana, arial, sans-serif; font-weight: bold }
+
+.subtitle	{ COLOR: #999999; FONT: 13px geneva, verdana, arial, sans-serif; font-weight: bold }
+
+.smalltitle 	{ COLOR: #000000; FONT: 11px verdana, arial, sans-serif; font-weight: bold }
+
+.phonetitle	{ COLOR: #000000; FONT: 12px geneva, verdana, arial, sans-serif; font-weight: bold }
+
+.picturecomments{ COLOR: #666666; FONT: 10px geneva, verdana, arial, sans-serif }
+
+.picturetitle 	{ COLOR: #000000; FONT: 10px verdana, arial, sans-serif; font-weight: bold }
+
+.price	 	{ COLOR: #CC6600; FONT: 12px verdana, arial, sans-serif; font-weight: bold }
+
+.biglink 	{ FONT: 12px verdana, arial, sans-serif; font-weight: bold; font-style: italic; TEXT-DECORATION: none }
+
+.biglink:hover 	{ FONT: 12px verdana, arial, sans-serif; font-weight: bold; font-style: italic; TEXT-DECORATION: underline }
+
+.just 		{text-align: justify;}
+
+.copytext	{ COLOR: #999999; FONT: 10px geneva, verdana, arial, sans-serif }
+
+.menutrans 	{ filter:alpha(opacity=50) }
+
+
+.button-popups { background-image: url("picts/popbutton.gif");
+		FONT: 11px verdana, arial, sans-serif;
+		font-weight: bold;
+		letter-spacing: 0px;
+		color: #999999;
+		WIDTH: 100%;
+		HEIGHT: 21PX;
+		cursor:hand;
+		BORDER: #003399 0px solid;
+		background-color:#FFFFFF; }
+
+.buttonon-popups { background-image: url("picts/popbuttonon.gif");
+		  FONT: 11px verdana, arial, sans-serif;
+		  font-weight: bold;
+		  letter-spacing: 0px;
+		  color: #3D5A7B;
+		  WIDTH: 100%;
+		  HEIGHT: 21PX;
+		  cursor:hand;
+		  BORDER: #003399 0px solid;
+		  background-color:#FFFFFF; }
+
+.shadeform	{ FONT: 13px arial, verdana, sans-serif;
+		background-image: url("picts/shadeform.gif");
+		text-align: left;
+		WIDTH: 220PX;
+		BORDER: #000000 1px solid}
+
+
+.dropdown {	COLOR: #333333;
+		WIDTH: 210PX;
+		FONT: 11px geneva, verdana, arial, sans-serif}
+
+
+.textarea	{ FONT: 13px arial, verdana, sans-serif;
+		background-image: url("picts/shadeform.gif");
+		text-align: left;
+		WIDTH: 300PX;
+		BORDER: #000000 1px solid}
+
+.submitbutton { background-image: url("picts/submit.gif");
+		FONT: 11px verdana, arial, sans-serif;
+		font-weight: bold;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		WIDTH: 300PX;
+		HEIGHT: 23PX;
+		cursor:hand;
+		BORDER: #000000 1px solid;
+		background-color:#3D5A7B; }
+
+.submitbuttonon { background-image: url("picts/submiton.gif");
+		  FONT: 11px verdana, arial, sans-serif;
+		  font-weight: bold;
+		  letter-spacing: 0px;
+		  color: #FFFFFF;
+		  WIDTH: 300PX;
+		  HEIGHT: 23PX;
+		  cursor:hand;
+		  BORDER: #000000 1px solid;
+		  background-color:#3D787A; }
+
+
+.searchform { 	WIDTH: 110PX;
+		HEIGHT: 20PX;
+		FONT: 11px arial, georgia, "Times New Roman", sans-serif;
+		BORDER: #000000 1px solid;}
+
+
+
+.searchdrop { WIDTH: 60PX; HEIGHT: 20PX; FONT: 11px arial, georgia, "Times New Roman", sans-serif }
+
+
+.searchbutton { FONT-FAMILY: arial, verdana, helvetica, sans;
+		font-size: 9pt;
+		width: 36px }
+
+
+
+ /* MOUSEOVER MESSAGE CODE */
+
+
+.divstyle {	position:absolute;
+		border: #000000 0px solid;
+		width:90;
+		padding: 0px;
+		top:0;
+		left:0 }
+
+.pstyletitle{	postion:absolute;
+		background:#3D5A7B;
+		color:white;
+		height:18;
+		font-size:10px;
+		padding: 2px;
+		font-family:verdana, arial;
+		font-weight: bold; }
+
+
+.pstylebody {	postion:absolute;
+		background:#3D5A7B;
+		color:white;
+		font-size:10px;
+		font-family:verdana, arial;
+		font-weight: bold; }
+
+
+ /* CODE FOR THE SHOPPING CART BUTTONS */
+
+.rollover 	{ }
+
+.rolloveron 	{ Filter: Alpha(Opacity=70) }
+
+
+
+ /* START THE CODE FOR THE MENUS */
+
+
+
+
+#menulocation { LEFT: 0px; WIDTH: 154px; POSITION: absolute; TOP: 100px; padding:0px 0px; white-space:nowrap; }
+
+
+.menu		{ font-family: arial, verdana, helvetica, sans;
+		  font-size: 12px;
+		  height: 28px;
+		  width: 154px;
+		  cursor:hand;
+		  font-weight: ;
+		  text-indent: 8px;
+		  line-height: 21pt;
+		  text-align: left;
+		  display: block;
+		  border: #FFFFFF 0px solid; }
+
+
+a.menu:link 	{ background-image: url("picts/menu.gif");
+		  background-color:#3D5A7B;
+		  color: #FFFFFF; }
+
+
+a.menu:visited 	{ background-image: url("picts/menu.gif");
+		  background-color:#3D5A7B;
+		  color: #FFFFFF; }
+
+
+a.menu:active 	{ background-image: url("picts/menu.gif");
+		  background-color:#FFFFFF;
+		  color: #3D5A7B; }
+
+
+a.menu:hover 	{ background-image: url("picts/menuon.gif");
+		  background-color:#FFFFFF;
+		  color: #3D5A7B; }
+
+
